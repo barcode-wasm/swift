@@ -3,6 +3,7 @@ import PackageDescription
 
 let package = Package(
     name: "barcode-pao-wasm",
+    platforms: [.macOS(.v10_15)],
     products: [
         .library(name: "BarcodePaoWasm", targets: ["BarcodePaoWasm"]),
     ],

@@ -18,7 +18,7 @@ Swift から使えるバーコード生成ライブラリです（Swift Package 
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/barcode-wasm/swift.git", from: "1.2.0"),
+    .package(url: "https://github.com/barcode-wasm/swift.git", from: "1.2.1"),
 ],
 targets: [
     .executableTarget(name: "App", dependencies: [
@@ -63,7 +63,7 @@ A barcode generation library for Swift (Swift Package Manager). The barcode engi
 ## Install
 
 ```swift
-.package(url: "https://github.com/barcode-wasm/swift.git", from: "1.2.0")
+.package(url: "https://github.com/barcode-wasm/swift.git", from: "1.2.1")
 // target dependency:
 .product(name: "BarcodePaoWasm", package: "swift")
 ```

@@ -416,7 +416,7 @@ open class Barcode2DBase: BarcodeWasmBase {
 public func getProductName() -> String { return "barcode-pao-wasm (Swift)" }
 
 /// Get the version.
-public func getVersion() -> String { return "1.2.0" }
+public func getVersion() -> String { return "1.2.1" }
 
 /// Get the manufacturer.
 public func getManufacturer() -> String { return "Pao" }
