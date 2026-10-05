@@ -14,9 +14,10 @@ Swift から使えるバーコード生成ライブラリです（Swift Package 
 
 ## インストール
 
-`Package.swift` に追加します。
+`Package.swift` に追加します。macOS では、`platforms` に macOS 10.15 以降を指定してください（指定しないとビルドできません）。
 
 ```swift
+platforms: [.macOS(.v10_15)],
 dependencies: [
     .package(url: "https://github.com/barcode-wasm/swift.git", from: "1.2.1"),
 ],
@@ -62,7 +63,10 @@ A barcode generation library for Swift (Swift Package Manager). The barcode engi
 
 ## Install
 
+On macOS, set `platforms` to macOS 10.15 or later in your `Package.swift` (the build fails without it).
+
 ```swift
+platforms: [.macOS(.v10_15)],
 .package(url: "https://github.com/barcode-wasm/swift.git", from: "1.2.1")
 // target dependency:
 .product(name: "BarcodePaoWasm", package: "swift")
