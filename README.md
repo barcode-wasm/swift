@@ -19,7 +19,7 @@ Swift から使えるバーコード生成ライブラリです（Swift Package 
 ```swift
 platforms: [.macOS(.v10_15)],
 dependencies: [
-    .package(url: "https://github.com/barcode-wasm/swift.git", from: "1.2.1"),
+    .package(url: "https://github.com/barcode-wasm/swift.git", from: "1.2.2"),
 ],
 targets: [
     .executableTarget(name: "App", dependencies: [
@@ -67,7 +67,7 @@ On macOS, set `platforms` to macOS 10.15 or later in your `Package.swift` (the b
 
 ```swift
 platforms: [.macOS(.v10_15)],
-.package(url: "https://github.com/barcode-wasm/swift.git", from: "1.2.1")
+.package(url: "https://github.com/barcode-wasm/swift.git", from: "1.2.2")
 // target dependency:
 .product(name: "BarcodePaoWasm", package: "swift")
 ```
